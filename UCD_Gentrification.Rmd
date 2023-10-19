@@ -220,7 +220,7 @@ ggplot(acsTractsPHL.2016)+
   geom_histogram(aes(med_HH_Income.2016*1.08),
                  binwidth = 5000, fill = "grey70")+
   labs(
-    title = "Philadelphia Median Income by Census Tract, 2016 and 2020",
+    title = "Philadelphia Median Income by Census Tract, 2016",
      subtitle = "All figures in 2020 dollars",
     caption = "Data: US Census Bureau, ACS 5-year estimates",
     x="Median Income", 
@@ -371,5 +371,6 @@ pt %>%
 
 ## Conclusion and Github Repository 
 
-If I had more time I would include more graphs to further illustrate the relationship between demographic shifts and gentrification with more information on UCD. The github repository with all necessary data is located (here.)[sss]
+If I had more time I would include more graphs to further illustrate the relationship between demographic shifts and gentrification with more information on UCD. The github repository with all necessary data is located [here.](https://github.com/samriddhikhar3/MUSA_6951_Assignment3.git)
 
+Looking forward to your feedback! 
