@@ -61,7 +61,7 @@ options(tigris_class = "sf")
 
 ## Creating a theme 
 
-The first step is to create a theme to ensure plots look neat and consistent.  
+The first step is to create a theme to ensure plots look neat and consistent. I spent a long time trying to get my custom fonts into R, using different font packages, but I could not. The `data` folder in the repository still contains fonts I wanted to use but I could not bring them in to `R`. Would love to know if anyone was able to figure this out!   
 
 ```{r}
 theme_sk <- function(base_size = 12, title_size = 16) {
@@ -74,8 +74,8 @@ theme_sk <- function(base_size = 12, title_size = 16) {
       axis.ticks = element_blank(),
       axis.title = element_text(family = font, size = 12),
       plot.title = element_text(family = font, size = title_size, color = "black"),
-   #   panel.border = element_rect(colour = "grey80", fill = NA, size = 1),
-     # plot.background = element_blank(),
+     #panel.border = element_rect(colour = "grey80", fill = NA, size = 1),
+     #plot.background = element_blank(),
       text = element_text(family = font, color = "black"),
       strip.text = element_text(family = font, size = 12),
       strip.background = element_rect(fill = "grey80", color = "white"),

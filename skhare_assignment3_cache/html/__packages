@@ -18,6 +18,7 @@ lubridate
 tidycensus
 sf
 kableExtra
+gridExtra
 viridisLite
 viridis
 socviz
